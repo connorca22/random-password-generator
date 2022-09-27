@@ -1,0 +1,101 @@
+
+    body {
+        font-family: 'Lora', serif;
+        min-width: 325px;
+        height: 100vh;
+        background-color: #2DB138;
+      }
+  
+        nav {
+          background-color: #2DB138;
+        }
+  
+        #logo {
+          width: 20%;
+        }
+  
+        .nav-item {
+          font-size: 1.1em;
+        }
+  
+        #panel-1 {
+          background-color: #2DB138;
+          height: 100vh;
+          max-height: 100vh;
+        }
+  
+        .gen {
+          width: 100%;
+          height: 3.5rem;
+        }
+
+        #generate, #copy {
+            transition: 0.01s;
+          }    
+  
+        #display {
+          background-color:  #2DB138;
+          border: none;
+          font-size: 2.8em;
+          min-height: 1em;
+          outline: none;
+        }
+  
+        i {
+            font-size: 2em;
+        }
+        
+        #shield-icon {
+            color: white;
+            opacity: 0.6;
+            font-size: 1.5em;
+        }
+        
+        #icon-text {
+            color: white;
+            opacity: 0.6;
+            font-size: 1.2em;
+        }
+        
+        hr {
+            border-color: white;
+        }
+
+        #app-container {
+            margin-top: 2em;
+            padding-top: 2em;
+          }
+        
+        
+            @media (max-width: 767.98px) {
+                html {
+                    font-size: 0.8em;
+                  }
+                  #icon-div {
+                    margin-bottom: 15px;
+                  }
+                  #length {
+                    margin-top: 15px;
+                  }
+                  #display {
+                    margin-bottom: 0.2em;
+                  }
+            }
+
+            @media (max-width: 576px) {
+                #line {
+                  display: none;
+                }
+               }
+            
+        
+            #copy:hover, #generate:hover {
+            background-color: #2DB138;
+            color: white;
+            }
+        
+            #copy:active, #generate:active {
+            background-color: white;
+            color: #2DB138;
+            }
+        
